@@ -36,8 +36,6 @@ export const multipartUpload = (
         // 获取上传进度。
         // console.log(p * 100)
 
-        console.log(acpt)
-
         cb({
           status: 'upload',
           ossCli: ossClient,
