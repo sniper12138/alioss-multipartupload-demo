@@ -24,6 +24,8 @@ export const multipartUpload = (
     acpt = abortCheckpoint
   }
 
+  console.log(123)
+
   const sfx = getFileSuffix(file.name)
   const key = 'img/' + getRandomString(10, true) + '.' + sfx
 
